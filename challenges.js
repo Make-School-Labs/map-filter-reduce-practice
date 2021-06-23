@@ -19,13 +19,12 @@
 
 // =================================================================
 
-const people = require('./people')
 
 // 1 ---------------------------------------------------------------
 // Map turn these numbers into strings
-// Return the numbers in the numbersArray as prices
+// Return an array with the numbers in the numbersArray as prices
 function convertNumbersToPrices(nums) {
-	return nums.map(n => `$${n.toFixed(2)}`)
+	return [];
 }
 
 // 2 ---------------------------------------------------------------
@@ -33,7 +32,7 @@ function convertNumbersToPrices(nums) {
 // Return an array of the balance field (people.balance) as a string in currency notation.
 // For example 2276.38 => "$2,276.38"
 function transformBalancetoCurrency(peopleArray) {
-	return peopleArray.map(n => `$${n.balance.toFixed(2)}`)
+	return [];
 }
 
 // 3 ---------------------------------------------------------------
@@ -41,7 +40,7 @@ function transformBalancetoCurrency(peopleArray) {
 // Return an array of even numbers
 
 function filterOddNumbers(nums) {
-	return nums.filter(num => num % 2 === 0)
+	return [];
 }
 
 // 4 ---------------------------------------------------------------
@@ -49,14 +48,14 @@ function filterOddNumbers(nums) {
 // Return an array of registered People
 
 function filterUnregisteredPeople(peopleArray) {
-	return peopleArray.filter(people => people.registered)
+	return [];
 }
 
 // 4 ---------------------------------------------------------------
 // Filter out the number of unregisterd AND Unactive people in the people data
 // Return an array of registered People who are active
 function filterUnregisteredAndUnactivePeople(peopleArray) {
-	return peopleArray.filter(people => people.registered && people.isActive )
+	return [];
 }
 
 
@@ -65,7 +64,7 @@ function filterUnregisteredAndUnactivePeople(peopleArray) {
 // Return a sum of the numbers in the array
 
 function sumNumbers(nums) {
-	return nums.reduce((acc, curr) => acc + curr)
+	return 0;
 }
 
 // 6 ---------------------------------------------------------------
@@ -73,7 +72,7 @@ function sumNumbers(nums) {
 // Return a sum of the ages 
 
 function totalAge(peopleArray) {
-	return peopleArray.reduce((acc, person) => acc + person.age, 0)
+	return 0;
 }
 
 // 7 (stretch challenge) ---------------------------------------------------------------
@@ -90,10 +89,6 @@ function highestBalanceHolder(peopleArray) {
 function countInstancesofEyeColor(peopleArray) {
 	return {}
 }
-
-
-
-
 
 
 
