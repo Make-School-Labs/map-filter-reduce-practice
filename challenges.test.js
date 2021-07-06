@@ -9,6 +9,7 @@ const {
   totalAge,
   highestBalanceHolder,
   countInstancesofEyeColor,
+  registeredWomen,
 } = require("./challenges");
 
 
@@ -44,7 +45,7 @@ describe("Filter Problems", () => {
     expect(filterUnregisteredPeople(people).length).toEqual(10);
   });
   test("Test registered people who are active", () => {
-    expect(filterUnregisteredAndUnactivePeople(people).length).toEqual(5);
+  expect(filterUnregisteredAndUnactivePeople(people).length).toEqual(5);
 	expect(filterUnregisteredAndUnactivePeople(people)[2]).toEqual({
 		"index": 14,
 		"isActive": true,
@@ -81,6 +82,18 @@ describe('Reduce Problems', () => {
 			green: 7
 		})
 	})
+
+  test('Test the names of registered women', () => {
+    let registeredWomenArray = registeredWomen();
+    expect(registeredWomenArray).toContain('Andrea Barrera')
+    expect(registeredWomenArray).toContain('Darla Leach')
+    expect(registeredWomenArray).toContain('Darla Leach')
+    expect(registeredWomenArray).toContain('Susana Goodwin')
+    expect(registeredWomenArray).toContain('Delia Shaw')
+    expect(registeredWomenArray).toContain('Kerry Houston')
+
+  })
+  
 	
 	
 	

@@ -6,7 +6,7 @@ module.exports = [
       "age": 26,
       "eyeColor": "green",
       "name": "Meyer Watkins",
-      "sex": "male",
+      "gender": "man",
       "address": "420 Plymouth Street, Trail, Tennessee, 6227",
       "registered": true
     },
@@ -17,7 +17,7 @@ module.exports = [
       "age": 31,
       "eyeColor": "blue",
       "name": "Ebony Lee",
-      "sex": "female",
+      "gender": "woman",
       "address": "218 Cooper Street, Mathews, Oklahoma, 4532",
       "registered": false
     },
@@ -28,7 +28,7 @@ module.exports = [
       "age": 22,
       "eyeColor": "blue",
       "name": "Viola Mccormick",
-      "sex": "female",
+      "gender": "agender",
       "address": "915 Emerald Street, Sugartown, District Of Columbia, 8255",
       "registered": false
     },
@@ -39,7 +39,7 @@ module.exports = [
       "age": 38,
       "eyeColor": "blue",
       "name": "Maddox Barr",
-      "sex": "male",
+      "gender": "man",
       "address": "458 Murdock Court, Waikele, Washington, 742",
       "registered": false
     },
@@ -50,7 +50,7 @@ module.exports = [
       "age": 33,
       "eyeColor": "brown",
       "name": "Torres Coleman",
-      "sex": "male",
+      "gender": "man",
       "address": "840 Florence Avenue, Chamberino, Texas, 9875",
       "registered": true
     },
@@ -61,7 +61,7 @@ module.exports = [
       "age": 35,
       "eyeColor": "blue",
       "name": "Dixie Harrell",
-      "sex": "female",
+      "gender": "woman",
       "address": "287 Exeter Street, Orick, New Hampshire, 8269",
       "registered": false
     },
@@ -72,7 +72,7 @@ module.exports = [
       "age": 25,
       "eyeColor": "green",
       "name": "Rosie Stark",
-      "sex": "female",
+      "gender": "woman",
       "address": "307 Oliver Street, Herbster, Wyoming, 8802",
       "registered": false
     },
@@ -83,7 +83,7 @@ module.exports = [
       "age": 31,
       "eyeColor": "blue",
       "name": "Alyssa Sparks",
-      "sex": "female",
+      "gender": "woman",
       "address": "838 Love Lane, Murillo, North Carolina, 5433",
       "registered": false
     },
@@ -94,7 +94,7 @@ module.exports = [
       "age": 21,
       "eyeColor": "green",
       "name": "Key Cunningham",
-      "sex": "male",
+      "gender": "man",
       "address": "210 Greenpoint Avenue, Cochranville, Louisiana, 6765",
       "registered": true
     },
@@ -105,7 +105,7 @@ module.exports = [
       "age": 23,
       "eyeColor": "green",
       "name": "Sanford York",
-      "sex": "male",
+      "gender": "non-binary",
       "address": "174 Bridge Street, Neahkahnie, Alaska, 6568",
       "registered": false
     },
@@ -116,7 +116,7 @@ module.exports = [
       "age": 30,
       "eyeColor": "green",
       "name": "Katy Silva",
-      "sex": "female",
+      "gender": "woman",
       "address": "681 Morgan Avenue, Bourg, Kentucky, 7399",
       "registered": false
     },
@@ -127,7 +127,7 @@ module.exports = [
       "age": 29,
       "eyeColor": "brown",
       "name": "Darla Leach",
-      "sex": "female",
+      "gender": "woman",
       "address": "881 Dodworth Street, Bagtown, Arkansas, 8424",
       "registered": true
     },
@@ -138,7 +138,7 @@ module.exports = [
       "age": 21,
       "eyeColor": "brown",
       "name": "Andrea Barrera",
-      "sex": "female",
+      "gender": "woman",
       "address": "532 Seacoast Terrace, Wyoming, Delaware, 8790",
       "registered": true
     },
@@ -149,7 +149,7 @@ module.exports = [
       "age": 35,
       "eyeColor": "brown",
       "name": "Nunez Cain",
-      "sex": "male",
+      "gender": "non-binary",
       "address": "478 Hutchinson Court, Aguila, Ohio, 3730",
       "registered": true
     },
@@ -160,7 +160,7 @@ module.exports = [
       "age": 40,
       "eyeColor": "blue",
       "name": "Susana Goodwin",
-      "sex": "female",
+      "gender": "woman",
       "address": "759 Otsego Street, Jeff, New Mexico, 6299",
       "registered": true
     },
@@ -171,7 +171,7 @@ module.exports = [
       "age": 20,
       "eyeColor": "green",
       "name": "Henrietta Santiago",
-      "sex": "female",
+      "gender": "woman",
       "address": "814 Clarkson Avenue, Glasgow, Indiana, 6062",
       "registered": false
     },
@@ -182,7 +182,7 @@ module.exports = [
       "age": 37,
       "eyeColor": "blue",
       "name": "Lauri Pittman",
-      "sex": "female",
+      "gender": "non-binary",
       "address": "526 Porter Avenue, Mammoth, Colorado, 249",
       "registered": true
     },
@@ -193,7 +193,7 @@ module.exports = [
       "age": 38,
       "eyeColor": "blue",
       "name": "Delia Shaw",
-      "sex": "female",
+      "gender": "woman",
       "address": "196 Colonial Court, Oasis, American Samoa, 5509",
       "registered": true
     },
@@ -204,7 +204,7 @@ module.exports = [
       "age": 36,
       "eyeColor": "green",
       "name": "Kerry Houston",
-      "sex": "female",
+      "gender": "woman",
       "address": "650 Varick Street, Marienthal, Montana, 5356",
       "registered": true
     }

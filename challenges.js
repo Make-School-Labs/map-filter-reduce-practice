@@ -91,6 +91,12 @@ function countInstancesofEyeColor(peopleArray) {
 }
 
 
+// 9 (Stretch Challenge) ---------------------------------------------------------------
+// Return an array containing the names of every registered woman in the people data
+
+function registeredWomen(peopleArray) {
+	return [];
+}
 
 
 
@@ -112,4 +118,5 @@ module.exports = {
 	totalAge,
 	highestBalanceHolder,
 	countInstancesofEyeColor,
+	registeredWomen,
 }
