@@ -1,7 +1,13 @@
-# Array Methods - Map, Filter, Reduce
+# Array Methods Practice Challenges
+
+## Challenge 1 - Map, Filter, Reduce
 
 Map, reduce and filter are all array methods that perform transofrmation or computations.
 Check out this [tweet](https://twitter.com/steveluscher/status/741089564329054208?s=19) explaining their implementation with emojis.
+
+## Challenge 2 -
+
+slice, splice, find, includes, indexOf, pop, push, reverse, shift, unshift
 
 ## Instructions
 

@@ -13,7 +13,7 @@
 // *************************************
 
 // Challenges 1, 3, 5 expect to receive a simple array of numbers [1, 2, 3, 4, 5] as the parameter data.
-// The other challenges expect to receive parameter data from the people data set defined in people.js
+// The other challenges expect to receive parameter data from the people data set defined in people.js file
 // Your goal is to extract the relevant 
 // piece of information from the data and return it.
 
@@ -92,18 +92,36 @@ function countInstancesofEyeColor(peopleArray) {
 
 
 // 9 (Stretch Challenge) ---------------------------------------------------------------
-// Return an array containing the names of every registered woman in the people data
+// Return an array containing the names of every REGISTERED WOMEN in the people data
 
 function registeredWomen(peopleArray) {
 	return [];
 }
 
 
+// 10 (Stretch Challenge) ---------------------------------------------------------------
+// Return the sum total of the balance for all REGISTERED and ACTIVE MEN in the people data
+// Return your sum total in dollar currency notation e.g. $2,458.32
 
+function totalBalanceRegandActiveMen(peopleArray) {
+	return '';
+}
 
+// 11 (Stretch Challenge) ---------------------------------------------------------------
+// Return the sum total of the balance for all REGISTERED and ACTIVE WOMEN in the people data
+// Return your sum total in dollar currency notation e.g. $2,458.32
 
+function totalBalanceRegandActiveWomen(peopleArray) {
+	return '';
+}
 
+// 11 (Stretch Challenge) ---------------------------------------------------------------
+// Return the sum total of the balance for everyone between the age of 35 and 40(people who are 35 and 40 excluded)
+// Return your sum total in dollar currency notation e.g. $2,458.32
 
+function totalBalanceAge35_40(peopleArray) {
+	return '';
+}
 
 
 
@@ -119,4 +137,7 @@ module.exports = {
 	highestBalanceHolder,
 	countInstancesofEyeColor,
 	registeredWomen,
+	totalBalanceRegandActiveMen,
+	totalBalanceRegandActiveWomen,
+	totalBalanceAge35_40
 }

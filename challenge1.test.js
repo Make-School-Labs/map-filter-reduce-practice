@@ -1,4 +1,3 @@
-// import { convertToPrices } from './challenges'
 const {
   convertNumbersToPrices,
   transformBalancetoCurrency,
@@ -10,7 +9,10 @@ const {
   highestBalanceHolder,
   countInstancesofEyeColor,
   registeredWomen,
-} = require("./challenges");
+  totalBalanceRegandActiveMen,
+  totalBalanceRegandActiveWomen,
+  totalBalanceAge35_40,
+} = require("./challenge1");
 
 
 
@@ -53,7 +55,7 @@ describe("Filter Problems", () => {
 		"age": 40,
 		"eyeColor": "blue",
 		"name": "Susana Goodwin",
-		"sex": "female",
+		"gender": "woman",
 		"address": "759 Otsego Street, Jeff, New Mexico, 6299",
 		"registered": true
 	  })
@@ -87,15 +89,29 @@ describe('Reduce Problems', () => {
     let registeredWomenArray = registeredWomen();
     expect(registeredWomenArray).toContain('Andrea Barrera')
     expect(registeredWomenArray).toContain('Darla Leach')
-    expect(registeredWomenArray).toContain('Darla Leach')
     expect(registeredWomenArray).toContain('Susana Goodwin')
     expect(registeredWomenArray).toContain('Delia Shaw')
     expect(registeredWomenArray).toContain('Kerry Houston')
 
   })
-  
-	
-	
 	
 })
 
+
+describe('Map/Reduce/Filter combo problems', () => {
+    
+  test('Test total sum of balance for men who are registered and active', () => {
+    let totalBalMen = totalBalanceRegandActiveMen();
+    expect(totalBalMen).toEqual('$1,842.33')
+  });
+
+  test('Test total sum of balance for women who are registered and active', () => {
+    let totalBalWomen = totalBalanceRegandActiveWomen();
+    expect(totalBalWomen).toEqual('$6,048.41')
+  });
+  
+  test('Test total sum of balance for everyone between 35 and 40 years old', () => {
+    let totalBalAge =totalBalanceAge35_40();
+    expect(totalBalAge).toEqual('$10,516.29')
+  });
+})
