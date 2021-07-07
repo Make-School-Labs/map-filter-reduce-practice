@@ -50,7 +50,7 @@ describe.skip("Filter Problems", () => {
   });
   test("Test registered people who are active", () => {
   expect(filterUnregisteredAndUnactivePeople(people).length).toEqual(5);
-	expect(filterUnregisteredAndUnactivePeople(people)[2]).toEqual({
+	expect(filterUnregisteredAndUnactivePeople(people)).toContainEqual({
 		"index": 14,
 		"isActive": true,
 		"balance": 2757.82,

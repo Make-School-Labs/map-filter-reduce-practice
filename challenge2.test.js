@@ -1,21 +1,60 @@
 const musicalInstruments = require("./instruments");
 
-const { woodWindInstruments } = require("./challenge2");
+const {
+  woodWindInstruments,
+  firstInstrumentLessThan10,
+  sumOfIndexes,
+  addMoreInstruments,
+} = require("./challenge2");
 
-describe("Slice Problems", () => {
+describe("Slice method Problems", () => {
   test("Test Woodwind Instruments", () => {
-    expect(woodWindInstruments(musicalInstruments)).toHaveLength(8);
     const clarinet = {
       family: "Woodwind",
       name: "Clarinet",
+      players: 9,
     };
 
     const harmonica = {
       family: "Woodwind",
       name: "Harmonica",
+      players: 7,
     };
 
     expect(woodWindInstruments(musicalInstruments)).toContainEqual(clarinet);
     expect(woodWindInstruments(musicalInstruments)).toContainEqual(harmonica);
+    expect(woodWindInstruments(musicalInstruments)).toHaveLength(7);
   });
 });
+
+describe("Find method problems", () => {
+  test("Test the first instrument with less than 10 players", () => {
+    expect(firstInstrumentLessThan10(musicalInstruments)).toEqual({
+      family: "Woodwind",
+      name: "Clarinet",
+      players: 9,
+    });
+  });
+});
+
+describe('indexOf and findIndexOf problems', () => {
+    test('Test the sum of the indexes of piano, accordion, harp, double bass and lyre', () => {
+        expect(sumOfIndexes(musicalInstruments)).toEqual(52)
+    });
+    
+});
+
+describe('Push and Unshift Problems', () => {
+    test('Test add more instruments to the array', () => {
+
+        let extendedList = addMoreInstruments(musicalInstruments)
+        expect(extendedList[0]).toEqual({
+            "family": "Brass", "name": "Vuvuzela", "players": 15
+        })
+        expect(extendedList[(extendedList.length) - 1]).toEqual({
+            "family": "Woodwind", "name": "Bagpipe", "players": 12
+        })
+    });
+    
+});
+

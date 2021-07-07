@@ -12,9 +12,10 @@ slice, splice, find, includes, indexOf, pop, push, reverse, shift, unshift
 ## Instructions
 
 1. Clone the Repository to your computer.
-2. Run npm install to install the necessary packages included in the `package.json`
-3. Navigate to the file `challenges.js` and follow the instructions before each practice activity.
-4. The data from the People dataset - `people.js` - is stored as an array of objects. Each object in the array has the same fields with different values.
+2. Run `git remote remove origin` to disconnect from the class repo. Also, run `npm install` to install any necessary packages included in `package.json`.
+3. Go to [GitHub](https://github.com/) and create a new repository for your code (do not initialize with a README). Follow the instructions to add a new remote called 'origin' to your new repository.
+4. Navigate to each of the two Challenge files - `challenges1.js` and `challenges2.js` - and follow the instructions before each practice activity.
+5. The data from the People dataset and Instruments dataset - `people.js` and `instruments` - is stored as an array of objects. Each object in the array has the same fields with different values.
 
 ## Running Your Code
 

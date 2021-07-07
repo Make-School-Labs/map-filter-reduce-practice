@@ -1,108 +1,129 @@
 module.exports = [
     {
         "family": "Brass",
-        "name": "Trombone"
+        "name": "Trombone",
+        "players": 10
     },
     {
         "family": "Brass",
-        "name": "Trumpet"
+        "name": "Trumpet",
+        "players": 13
     },
 
     {
         "family": "Brass",
-        "name": "Tuba"
+        "name": "Tuba",
+        "players": 18
     },
     {
         "family": "Brass",
-        "name": "French horn"
+        "name": "French horn",
+        "players": 15
     },
 
     {
         "family": "Woodwind",
-        "name": "Clarinet"
+        "name": "Clarinet",
+        "players": 9
     },
     {
         "family": "Woodwind",
-        "name": "Flute"
+        "name": "Flute",
+        "players": 5
     },
 
     {
         "family": "Woodwind",
-        "name": "Oboe"
+        "name": "Oboe",
+        "players": 5
     },
 
     {
         "family": "Woodwind",
-        "name": "Saxophone"
+        "name": "Saxophone",
+        "players": 8
+    },
+ 
+    {
+        "family": "Woodwind",
+        "name": "Recorder",
+        "players": 15
     },
     {
         "family": "Woodwind",
-        "name": "Recorder"
+        "name": "Accordion",
+        "players": 11
     },
     {
         "family": "Woodwind",
-        "name": "Recorder"
-    },
-    {
-        "family": "Woodwind",
-        "name": "Accordion"
-    },
-    {
-        "family": "Woodwind",
-        "name": "Harmonica"
+        "name": "Harmonica",
+        "players": 7
     },
     {
         "family": "String",
-        "name": "Harp"
+        "name": "Harp",
+        "players": 1
     },
     {
         "family": "String",
-        "name": "Cello"
+        "name": "Cello",
+        "players": 1
     },
     {
         "family": "String",
-        "name": "Violin"
+        "name": "Viola",
+        "players": 2
     },
     {
         "family": "String",
-        "name": "Violin"
+        "name": "Violin",
+        "players": 10
     },
 
     {
         "family": "String",
-        "name": "Guitar"
+        "name": "Guitar",
+        "players": 6
     },
     {
         "family": "String",
-        "name": "Double bass"
+        "name": "Double bass",
+        "players": 4
     },
     {
         "family": "Percussion",
-        "name": "Piano"
+        "name": "Piano",
+        "players": 12
     },
     {
         "family": "Percussion",
-        "name": "Xylophone"
+        "name": "Xylophone",
+        "players": 2
     },
     {
         "family": "Percussion",
-        "name": "Maracas"
+        "name": "Maracas",
+        "players": 2
     },
     {
         "family": "Percussion",
-        "name": "Banjo"
+        "name": "Banjo",
+        "players": 3
     },
     {
         "family": "Percussion",
-        "name": "Bell"
+        "name": "Bell",
+        "players": 3
     },
     {
         "family": "Percussion",
-        "name": "Conga"
+        "name": "Conga",
+        "players": 5
     },
     {
         "family": "Percussion",
-        "name": "Snare drum"
+        "name": "Snare drum",
+        "players": 9
     }
 
 ]
