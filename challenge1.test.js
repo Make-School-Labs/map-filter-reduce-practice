@@ -19,7 +19,9 @@ const {
 const numbers = [1, 2, 3, 4, 5];
 const people = require("./people");
 
-describe("Map Problems", () => {
+console.table(people);
+
+describe.skip("Map Problems", () => {
   test("Test numbers to prices", () => {
     expect(convertNumbersToPrices(numbers)).toEqual([
       "$1.00",
@@ -38,7 +40,7 @@ describe("Map Problems", () => {
   });
 });
 
-describe("Filter Problems", () => {
+describe.skip("Filter Problems", () => {
   test("Test filter out odd numbers ", () => {
     expect(filterOddNumbers(numbers)).toEqual([2, 4]);
   });
@@ -62,7 +64,7 @@ describe("Filter Problems", () => {
   });
 });
 
-describe('Reduce Problems', () => {
+describe.skip('Reduce Problems', () => {
 	test('Test sum of array of numbers', () => {
 		expect(sumNumbers(numbers)).toEqual(15)
 	})
@@ -86,7 +88,7 @@ describe('Reduce Problems', () => {
 	})
 
   test('Test the names of registered women', () => {
-    let registeredWomenArray = registeredWomen();
+    let registeredWomenArray = registeredWomen(people);
     expect(registeredWomenArray).toContain('Andrea Barrera')
     expect(registeredWomenArray).toContain('Darla Leach')
     expect(registeredWomenArray).toContain('Susana Goodwin')
@@ -98,20 +100,20 @@ describe('Reduce Problems', () => {
 })
 
 
-describe('Map/Reduce/Filter combo problems', () => {
+describe.skip('Map/Reduce/Filter combo problems', () => {
     
   test('Test total sum of balance for men who are registered and active', () => {
-    let totalBalMen = totalBalanceRegandActiveMen();
+    let totalBalMen = totalBalanceRegandActiveMen(people);
     expect(totalBalMen).toEqual('$1,842.33')
   });
 
   test('Test total sum of balance for women who are registered and active', () => {
-    let totalBalWomen = totalBalanceRegandActiveWomen();
+    let totalBalWomen = totalBalanceRegandActiveWomen(people);
     expect(totalBalWomen).toEqual('$6,048.41')
   });
   
   test('Test total sum of balance for everyone between 35 and 40 years old', () => {
-    let totalBalAge =totalBalanceAge35_40();
+    let totalBalAge =totalBalanceAge35_40(people);
     expect(totalBalAge).toEqual('$10,516.29')
   });
 })

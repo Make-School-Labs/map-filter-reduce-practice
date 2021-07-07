@@ -18,8 +18,22 @@ slice, splice, find, includes, indexOf, pop, push, reverse, shift, unshift
 
 ## Running Your Code
 
-From the root directory, run the challenges with:
+- From the root directory, run all the challenges with:
 
 ```bash
     npm test
+```
+
+- To run a specific challenge file
+
+For challenge 1:
+
+```bash
+    npm run challenge1
+```
+
+For challenge 2:
+
+```bash
+    npm run challenge2
 ```
