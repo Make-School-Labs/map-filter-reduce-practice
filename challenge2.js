@@ -3,7 +3,7 @@
 // Array methods challenges!
 
 // Your goal is to write some functions implementations of various regular array methods
-// Slice, Splice, indexOf, find, push, pop, reverse, shift, unshift
+// Slice, indexOf, find, push, reverse, shift,
 
 // Write your code here in this file.
 
@@ -101,10 +101,41 @@ function addMoreInstruments(instrumentArray) {
 
 }
 
+// The forEach() method executes a function once for each item in the array.
+// add the number of players
+// find the instrument with the highest number of players
+// flatten array
+
+// The forEach() method executes a function once for each item in the array.
+
+// groceries.forEach((e => console.table(e))) // output: prints out the items in the array to the console.
+
+
+
+// 5 =================================================================
+// Use a forEach loop to get the total number of instrument players in the instrument dataset
+// Return a number that is the sum total of all the players
+
+function totalNumberOfPlayers(instrumentArray) {
+    return 0;
+}
+
+
+
+// 6 =================================================================
+// Find the instrument with the highest number of players
+// Return an object containing the details of the instrument with the highest number of players
+// e.g. {"family": "woodwind","name": "Lyre", "players": 24}
+
+function instrumentWithHighestPlayers(instrumentArray) {
+    return {};
+}
 
 module.exports = {
     woodWindInstruments,
     firstInstrumentLessThan10,
     sumOfIndexes,
     addMoreInstruments,
+    totalNumberOfPlayers,
+    instrumentWithHighestPlayers
 };

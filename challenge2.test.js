@@ -5,6 +5,8 @@ const {
   firstInstrumentLessThan10,
   sumOfIndexes,
   addMoreInstruments,
+  instrumentWithHighestPlayers,
+  totalNumberOfPlayers,
 } = require("./challenge2");
 
 describe("Slice method Problems", () => {
@@ -57,4 +59,21 @@ describe('Push and Unshift Problems', () => {
     });
     
 });
+
+describe('ForEach Problems', () => {
+    test('Test the total number of players', () => {
+        expect(totalNumberOfPlayers(musicalInstruments)).toEqual(176)
+    });
+
+    test('Test the instrument with the highest number of players', () => {
+        expect(instrumentWithHighestPlayers(musicalInstruments)).toEqual({
+            "family": "Brass",
+            "name": "Tuba",
+            "players": 18
+        })
+    });
+    
+    
+});
+
 
